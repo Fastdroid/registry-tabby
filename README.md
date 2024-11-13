@@ -11,25 +11,41 @@ We have published benchmarks for these models on https://leaderboard.tabbyml.com
 
 | Model ID | License |
 | -------- | ------- |
-| [TabbyML/StarCoder-1B](https://hf-mirror.com/bigcode/starcoderbase-1b) | [BigCode-OpenRAIL-M](https://hf-mirror.com/spaces/bigcode/bigcode-model-license-agreement) |
-| [TabbyML/StarCoder-3B](https://hf-mirror.com/bigcode/starcoderbase-3b) | [BigCode-OpenRAIL-M](https://hf-mirror.com/spaces/bigcode/bigcode-model-license-agreement) |
-| [TabbyML/StarCoder-7B](https://hf-mirror.com/bigcode/starcoderbase-7b) | [BigCode-OpenRAIL-M](https://hf-mirror.com/spaces/bigcode/bigcode-model-license-agreement) |
-| [TabbyML/StarCoder2-3B](https://hf-mirror.com/bigcode/starcoder2-3b) | [BigCode-OpenRAIL-M](https://hf-mirror.com/spaces/bigcode/bigcode-model-license-agreement) |
-| [TabbyML/StarCoder2-7B](https://hf-mirror.com/bigcode/starcoder2-7b) | [BigCode-OpenRAIL-M](https://hf-mirror.com/spaces/bigcode/bigcode-model-license-agreement) |
-| [TabbyML/CodeLlama-7B](https://hf-mirror.com/codellama/CodeLlama-7b-hf) | [Llama 2](https://github.com/facebookresearch/llama/blob/main/LICENSE) |
-| [TabbyML/CodeLlama-13B](https://hf-mirror.com/codellama/CodeLlama-13b-hf) | [Llama 2](https://github.com/facebookresearch/llama/blob/main/LICENSE) |
-| [TabbyML/DeepseekCoder-1.3B](https://hf-mirror.com/deepseek-ai/deepseek-coder-1.3b-base) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
-| [TabbyML/DeepseekCoder-6.7B](https://hf-mirror.com/deepseek-ai/deepseek-coder-6.7b-base) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
-| [TabbyML/CodeGemma-7B](https://hf-mirror.com/google/codegemma-7b) | [Gemma License](https://ai.google.dev/gemma/terms) |
-| [TabbyML/CodeQwen-7B](https://hf-mirror.com/Qwen/CodeQwen1.5-7B-Chat) | []() |
+| [StarCoder-1B](https://hf-mirror.com/bigcode/starcoderbase-1b) | [BigCode-OpenRAIL-M](https://hf-mirror.com/spaces/bigcode/bigcode-model-license-agreement) |
+| [StarCoder-3B](https://hf-mirror.com/bigcode/starcoderbase-3b) | [BigCode-OpenRAIL-M](https://hf-mirror.com/spaces/bigcode/bigcode-model-license-agreement) |
+| [StarCoder-7B](https://hf-mirror.com/bigcode/starcoderbase-7b) | [BigCode-OpenRAIL-M](https://hf-mirror.com/spaces/bigcode/bigcode-model-license-agreement) |
+| [StarCoder2-3B](https://hf-mirror.com/bigcode/starcoder2-3b) | [BigCode-OpenRAIL-M](https://hf-mirror.com/spaces/bigcode/bigcode-model-license-agreement) |
+| [StarCoder2-7B](https://hf-mirror.com/bigcode/starcoder2-7b) | [BigCode-OpenRAIL-M](https://hf-mirror.com/spaces/bigcode/bigcode-model-license-agreement) |
+| [CodeLlama-7B](https://hf-mirror.com/codellama/CodeLlama-7b-hf) | [Llama 2](https://github.com/facebookresearch/llama/blob/main/LICENSE) |
+| [CodeLlama-13B](https://hf-mirror.com/codellama/CodeLlama-13b-hf) | [Llama 2](https://github.com/facebookresearch/llama/blob/main/LICENSE) |
+| [DeepseekCoder-1.3B](https://hf-mirror.com/deepseek-ai/deepseek-coder-1.3b-base) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
+| [DeepseekCoder-6.7B](https://hf-mirror.com/deepseek-ai/deepseek-coder-6.7b-base) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
+| [CodeGemma-7B](https://hf-mirror.com/google/codegemma-7b) | [Gemma License](https://ai.google.dev/gemma/terms) |
+| [CodeQwen-7B](https://hf-mirror.com/Qwen/CodeQwen1.5-7B-Chat) | []() |
+| [Codestral-22B](https://hf-mirror.com/mistralai/Codestral-22B-v0.1) | []() |
+| [DeepSeek-Coder-V2-Lite](https://hf-mirror.com/deepseek-ai/DeepSeek-Coder-V2-Lite-Base) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
 
 
 ## Chat models (`--chat-model`)
 
-To ensure optimal response quality, and given that latency requirements are not stringent in this scenario, we recommend using a model with at least 3B parameters.
+To ensure optimal response quality, and given that latency requirements are not stringent in this scenario, we recommend using a model with at least 1B parameters.
 
 | Model ID | License |
 | -------- | ------- |
-| [TabbyML/WizardCoder-3B](https://hf-mirror.com/WizardLM/WizardCoder-3B-V1.0) | [BigCode-OpenRAIL-M](https://hf-mirror.com/spaces/bigcode/bigcode-model-license-agreement) |
-| [TabbyML/Mistral-7B](https://hf-mirror.com/mistralai/Mistral-7B-v0.1) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
-| [TabbyML/CodeQwen-7B-Chat](https://hf-mirror.com/Qwen/CodeQwen1.5-7B-Chat) | [Tongyi Qianwen License](https://github.com/QwenLM/Qwen/blob/main/Tongyi%20Qianwen%20LICENSE%20AGREEMENT) |
+| [Mistral-7B](https://hf-mirror.com/mistralai/Mistral-7B-v0.1) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
+| [CodeQwen-7B-Chat](https://hf-mirror.com/Qwen/CodeQwen1.5-7B-Chat) | [Tongyi Qianwen License](https://github.com/QwenLM/Qwen/blob/main/Tongyi%20Qianwen%20LICENSE%20AGREEMENT) |
+| [Qwen2.5-Coder-1.5B-Instruct](https://hf-mirror.com/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
+| [Codestral-22B](https://hf-mirror.com/mistralai/Codestral-22B-v0.1) | []() |
+
+
+## Embedding models
+
+| Model ID | License |
+| -------- | ------- |
+| [CodeGemma-2B](https://hf-mirror.com/google/codegemma-2b) | []() |
+| [CodeGemma-7B-Instruct](https://hf-mirror.com/google/codegemma-7b-it) | []() |
+| [Qwen2.5-Coder-7B-Instruct](https://hf-mirror.com/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF) | []() |
+| [Qwen2-1.5B-Instruct](https://hf-mirror.com/Qwen/Qwen2-1.5B) | []() |
+| [Nomic-Embed-Text](https://hf-mirror.com/nomic-ai/nomic-embed-text-v1.5-GGUF) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
+| [Jina-Embeddings-V2-Code](https://hf-mirror.com/jinaai/jina-embeddings-v2-base-code) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
+| [Yi-Coder-9B-Chat](https://hf-mirror.com/01-ai/Yi-Coder-9B-Chat) | []() |
